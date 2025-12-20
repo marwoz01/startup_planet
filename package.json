@@ -1,24 +1,16 @@
 {
   "name": "startup_planet",
   "version": "1.0.0",
-  "description": "a dataset of the world's most promising startups",
-  "homepage": "https://github.com/marwoz01/startup_planet#readme",
-  "bugs": {
-    "url": "https://github.com/marwoz01/startup_planet/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marwoz01/startup_planet.git"
-  },
-  "license": "ISC",
-  "author": "Marcel Wozniak",
+  "description": "a dataset of the world’s most promising startups",
+  "main": "server.js",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
+  "author": "Marcel Wozniak",
+  "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1",
-    "Express": "^3.0.1"
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
   }
 }
